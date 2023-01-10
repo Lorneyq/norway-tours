@@ -1,0 +1,1512 @@
+@media (min-width: 1921px) {
+    .slide-container {
+        margin: auto;
+    }
+    .tour-main {
+        width: 680px;
+    }
+    .gallery-container {
+        margin: auto;
+    }
+    .gallery-slider-container {
+        margin: auto;
+    }
+}
+
+@media (max-width: 1800px) {
+    .tour-slide-img-container {
+        width: 85%;
+        height: initial;
+    }
+    .tour-slide-container {
+        margin-bottom: 40px;
+    }
+    .tour-slide-first {
+        padding-left: 35px;
+    }
+    .tour-slider-item img {
+        width: 100%;
+        height: initial;
+    }
+    .tour-slider-item:nth-child(n + 2) {
+        padding-left: 40px;
+        padding-right: 0;
+    }
+    .gallery {
+        padding-top: 0px;
+    }
+    .gallery-slider {
+        padding-left: 1px;
+    }
+    .gallery-container {
+        width: 1500px;
+        margin: auto;
+    }
+    .swiper-slide-active .gallery-slide-img-container {
+        transform: scale(1);
+    }
+    .gallery-slider img {
+        width: 480px;
+        height: 570px;
+    }
+    .gallery-slider-container {
+        width: 1500px;
+        margin: auto;
+    }
+    .gallery-slider-container .swiper-button-prev {
+        bottom: 110px;
+        right: 787px;
+    }
+    .gallery-slider-container .swiper-button-next {
+        bottom: 110px;
+        right: 500px;
+    }
+    .gallery-slider-item-null {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1700px) {
+    .unit-1 {
+        padding: 104px 83px 90px 75px;
+    }
+    .photo-3 {
+        margin-right: 91px;
+    }
+    .container-1650 .header__inner .menu {
+        margin-right: 25px;
+    }
+    .chief__main {
+        margin-right: 30px;
+    }
+    .chief__head a {
+        margin-right: 20px;
+    }
+    .tours-link {
+        max-width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tours-title h1 {
+        max-width: 92%;
+        margin: auto;
+    }
+    .svalbard-info, .lofoten-info {
+        margin-top: 35px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    .svalbard-info, .lofoten-info {
+        margin-left: 0;
+        padding-left: 50px;
+        width: 400px;
+    }
+    .lofoten-info {
+        padding-left: 0;
+    }
+    .lofoten-bg{
+        margin-right: 100px;
+    }
+    .svalbard-img img:nth-child(2), .lofoten-img img:nth-child(1) {
+        margin-left: 50px;
+        margin-bottom: 100px;
+    }
+    .how-to-book__inner {
+        margin-left: 50px;
+    }
+    .terms__inner {
+        margin-left: 50px;
+    }
+    .terms-text, .book_part2  {
+        margin-left: 40px;
+    }
+    .terms-text {
+        margin-right: 15px;
+    }
+    .book_part2 {
+        display: flex;
+    }
+    .book_part2 img:nth-child(2) {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1649px) {
+    .tour-slider {
+        margin-left: 25px;
+    }
+    .tour-slide-img-container {
+        width: 84%;
+        height: 100%;
+    }
+    .tour-main {
+        width: 680px;
+        border-left: 1px solid #000;
+      }
+    .tour-slide-first {
+        padding-left: 35px;
+        padding-right: 0;
+    }
+    .tour-slider-item img {
+        height: 85%;
+        object-fit: fill;
+    }
+    .main-information__inner-2 h1 {
+        width: 450px;
+    }
+    .unit-1 {
+        padding: 104px 54px 90px 101px;
+    }
+    .unit-1 h1 {
+        width: 631px;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    .whois__inner {
+        flex-direction: column;
+    }
+    .whois__inner h1 {
+        margin-left: 10px;
+    }
+    .whois__inner p {
+        margin-left: 15px;
+        margin-top: 17px;
+    }
+    .contact-forms {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contact-form__inner {
+        margin-top: 70px;
+        margin-left: 0;
+    }
+    .contact-form__inner h1 {
+        text-align: center;
+    }
+    .info-3 {
+        padding-top: 15px;
+    }
+    .contact-forms input {
+        margin: auto;
+        width: 550px;
+    }
+    .contact-forms input:nth-child(2) {
+        margin: auto;
+        margin-top: 30px;
+    }
+    .contact-forms button {
+        margin: auto;
+        margin-top: 30px;
+        width: 550px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .info-3 ul {
+        max-width: 550px;
+    }
+    .gallery-slider {
+        margin-top: 70px;
+    }
+    .gallery-slider img {
+        width: 96%;
+    }
+    .gallery-container {
+        max-width: 1500px;
+        width: initial;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .gallery-text h4 {
+        margin-right: 50px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .gallery-slider-container {
+        width: initial;
+        max-width: 1500px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .gallery-slider-container .swiper-button-next {
+        bottom: 110px;
+        right: 15px;
+    }
+    .gallery-slider-container .swiper-button-prev {
+        bottom: 110px;
+        right: auto;
+    }
+}
+
+@media (max-width: 1500px) {
+    .social-link {
+        margin-top: -6px;
+    }
+    .contact-link {
+        margin-left: 0px;
+    }
+    .contact-link a {
+        margin-top: 0px;
+    }
+    .tour-slider-item img {
+        height: 85%;
+        object-fit: cover;
+    }
+    .how-to-book__inner {
+        margin-left: 21px;
+    }
+    .how-to-book h1 {
+        font-size: 62px;
+    }
+    .terms__inner {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .tour-main {
+        width: 517px;
+    }
+    .tour-main h1 {
+        font-size: 50px;
+        margin-left: 64px;
+        margin-right: 59px;
+    }
+    .main-information__inner-2 h1 {
+        font-size: 40px;
+    }
+    .unit-1 {
+        padding: 104px 4px 90px 94px;
+    }
+    .unit-1 h1 {
+        width: 525px;
+    }
+    .main-list {
+        margin-top: 51px;
+    }
+    .info-3 ul {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .info-3-li {
+        margin-top: 45px;
+    }
+    .photo-3 {
+        margin: 85px 25px 76px 18px;
+        max-width: 580px;
+    }
+    .photo-3 img {
+        width: 580px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .svalbard-info {
+        margin-right: 20px;
+    }
+    .svalbard-info h1, .lofoten-info h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .svalbard-info h2, .lofoten-info h2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 31px;
+    }
+    .lofoten-bg {
+        margin-right: 80px;
+    }
+    .svalbard-bg img, .lofoten-bg img {
+        object-fit: cover;
+    }
+    .svalbard-link img, .lofoten-link img {
+        margin-left: 30px;
+    }
+    .main-text {
+        margin-top: 320px;
+    }
+    .main-text h1 {
+        font-size: 100px;
+        line-height: 120px;
+        margin-top: 30px;
+        margin-bottom: 34px;
+    }
+    .main-text span {
+        font-size: 82px;
+        line-height: 100px;
+    }
+    .main-text img {
+        width: 230px;
+    }
+    .how-to-book__inner {
+        margin-left: 50px;
+    }
+    .book_part2 {
+        flex-direction: column-reverse;
+        margin-left: 0;
+    }
+    .book_part2 img:nth-child(1) {
+        margin-top: 146px;
+        margin-right: auto;
+        margin-left: -560px;
+        width: 100%;
+    }
+    .book_part2 img:nth-child(2) {
+        margin-top: -70px;
+        margin-left: 125px;
+        width: 338px;
+    }
+    .terms__inner {
+        margin-top: -320px;
+    }
+    .terms__inner img {
+        display: none;
+    }
+    .terms-text {
+        margin-top: -170px;
+        margin-left: auto;
+    }
+    .book-bg {
+        margin-top: -600px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .main-info-text h4 {
+        margin-right: 0;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .main-info-text h3 {
+        margin-right: 100px;
+        font-size: 28px;
+    }
+    .main-info-text {
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .main-information__inner-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main-information__inner-1 h1 {
+        display: block;
+        text-align: center;
+        border-top: 1px solid #000000;
+        padding-top: 44px;
+        padding-bottom: 40px;
+    }
+    .tour-main {
+        padding-top: 20px;
+    }
+    .tour-main h1 {
+        display: none;
+    }
+    .tour-dates {
+        justify-content: flex-start
+    }
+    .tour-dates h3 {
+        padding-top: 20px;
+    }
+    .tour-dates h3:nth-child(n + 2) {
+        padding-top: 180px;
+    }
+    .tour-slide-container {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .tour-slider-item img {
+        width: 100%;
+    }
+    .tour-slider-item:nth-child(n + 2) {
+        padding-left: 0;
+    }
+    .tour-slide-img-container {
+        height: 90%;
+        padding-left: 20px;
+    }
+    .tour-slide-first {
+        margin-left: 45px;
+    }
+    .main-information__inner-2 {
+        flex-direction: column;
+    }
+    .main-information__inner-2 h1 {
+        font-size: 64px;
+    }
+    .unit-1 {
+        padding: 65px 0px 57px 250px;
+        border-bottom: 1px solid black;
+        border-right: none;
+    }
+    .unit-2 {
+        padding-top: 62px;
+        padding-left: 250px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid black;
+    }
+    .main-information__inner-2 h1 {
+        width: 700px;
+    }
+    .tour-program {
+        border-right: none;
+    }
+    .main-information-3 {
+        border-top: none;
+    }
+    .main-information__inner-3 {
+        flex-direction: column;
+    }
+    .info-3 {
+        border-left: none;
+        padding-left: 250px;
+    }
+    .info-3 ul {
+        font-size: 64px;
+        max-width: none;
+    }
+    .info-3 li {
+        max-width: none;
+        align-items: center;
+        height: 38px;
+    }
+    .photo-3 {
+        padding-right: 0px;
+        max-width: 97%;
+        margin: 40px 25px 35px 18px;
+    }
+    .photo-3 img {
+        width: 100%;
+        object-fit: fill;
+        height: 418px;
+    }
+    .container-1650 .header__inner img {
+        margin-left: 25px;
+    }
+    .chief__head {
+        flex-direction: column;
+    }
+    .chief__head a {
+        margin-bottom: -110px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .chief__head h1 {
+        margin-left: 0;
+    }
+    .chief__main {
+        flex-direction: column;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .chief__main h3 {
+        margin: 0;
+        margin-bottom: 40px;
+        transform: rotate(0deg);
+        width: initial;
+        font-size: 34px;
+    }
+    .video__slider-container {
+        max-width: 100%;
+    }
+    .video__slider-container .swiper-button-prev {
+        right: 310px;
+    }
+    .video__slider-container .swiper-button-next {
+        right: 180px;
+    }
+    .video__slider-container .swiper-pagination {
+        right: 80px;
+    }
+    .tours {
+        padding-top: 10px;
+    }
+    .tours a {
+        height: 203px;
+    }
+    .tours-link {
+        margin-top: 35px;
+    }
+    .svalbard, .lofoten {
+        height: 200px;
+    }
+    .lofoten-bg {
+        margin-right: 55px;
+    }
+    .svalbard-bg img, .lofoten-bg img {
+        height: 201px;
+    }
+    .svalbard-link img, .lofoten-link img {
+        margin-top: 80px;
+        width: 40px;
+    }
+    .svalbard-img img:nth-child(2), .lofoten-img img:nth-child(1) {
+        margin-left: 25px;
+    }
+    .svalbard-link img {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .svalbard-info, .lofoten-info {
+        margin-top: 20px;
+        width: 315px;
+    }
+    .svalbard-info {
+        padding-left: 35px;
+        margin-right: 0;
+        min-width: 300px;
+    }
+    .svalbard-info h1, .lofoten-info h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .svalbard-info h2, .lofoten-info h2 {
+        margin-top: 24px;
+    }
+    .gallery-slider img {
+        height: 450px;
+        object-fit: cover;
+    }
+    .gallery-slider-container .swiper-button-next {
+        right: 11px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .terms-text {
+        margin-left: 550px;
+    }
+    .terms-text p {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .tour-slide-container {
+        margin-bottom: 25px;
+        margin-left: 10px;
+    }
+    .video__slider-container .swiper-button-prev {
+        right: 260px;
+    }
+    .video__slider-container .swiper-button-next {
+        right: 130px;
+    }
+    .video__slider-container .swiper-pagination {
+        right: 30px;
+    }
+    .ch-video-item {
+        max-width: 100%;
+        height: 627px;
+        object-fit: cover;
+    }
+    .playvideo {
+        margin-left: -50px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .svalbard-info, .lofoten-info {
+        margin-top: 35px;
+    }
+    .svalbard-info {
+        min-width: 270px;
+    }
+    .lofoten-bg {margin-right: 40px;}
+    .svalbard-info h1, .lofoten-info h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .svalbard-info h2, .lofoten-info h2 {
+        margin-top: 15px;
+    }
+    .svalbard-info h3, .lofoten-info h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .how-to-book {
+        padding-top: 20px;
+    }
+    .how-to-book h1 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .how-to-book ul {
+        margin-top: 51px;
+    }
+    .how-to-book li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .how-to-book span {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .terms-text p {
+        max-width: 400px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .book_part2 img:nth-child(1) {
+        margin-left: -500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-bg {
+        background-image: url(../img/main-photo-1000.jpg);
+        background-repeat: no-repeat;
+        height: 55vh;
+    }
+    .whois__inner {
+        margin-top: 50px;
+    }
+    .unit-1, .unit-2, .info-3 {
+        padding-left: 40px;
+    }
+    .info-3 ul {
+        font-size: 64px;
+    }
+    .photo-3 {
+        padding-right: 10px;
+        margin: 25px 0px 25px 18px;
+    }
+    .photo-3 img {
+        object-fit: cover;
+    }
+    .background-color {
+        height: 750px;
+    }
+    .chief {
+        margin-top: 50px;
+    }
+    .chief__head img {
+        margin-top: 0px;
+    }
+    .chief__head h1 {
+        font-size: 100px;
+    }
+    .book_part2 img:nth-child(1) {
+        margin-top: 180px;
+    }
+    .book_part2 img:nth-child(2) {
+        margin-left: 50px;
+    }
+    .terms-text {
+        margin-left: 475px;
+    }
+    .gallery-slider-container, .gallery-container {
+        margin-right: 5px;
+        margin-left: 15px;
+    }
+    .gallery-slider img {
+        width: 95%;
+        height: 360px;
+    }
+    .gallery-slider-container .swiper-button-next {
+        right: 14px;
+    }
+}
+
+@media (max-width: 940px) {
+    .footer__inner {
+        flex-direction: column;
+        margin: 29px 20px 24px 20px;
+    }
+    .social-link{
+        text-align: center;
+        margin-top: 0;
+    }
+    .contact-link {
+        margin-top: 10px;
+    }
+    .designed {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .video__slider-container .swiper-pagination {
+        display: none;
+    }
+    .video__slider-container .swiper-button-prev {
+        display: none;
+    }
+    .video__slider-container .swiper-button-next {
+        display: none;
+    }
+    .tours a {
+        height: 390px;
+    }
+    .svalbard, .lofoten {
+        flex-direction: column;
+        height: 388px;
+        width: 100%;
+        margin: auto;
+    }
+    .svalbard-info, .lofoten-info {
+        min-width: initial;
+        width: initial;
+        margin: 150px;
+        margin-left: 130px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-left: 0;
+    }
+    .svalbard-info h1, .lofoten-info h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .svalbard-info h3, .lofoten-info h3 {
+    font-size: 16px;
+    line-height: 23px;
+    }
+    .svalbard-img {
+        flex-direction: column-reverse;
+        margin-top: -167px;
+    }
+    .lofoten-info {
+        margin: 0;
+        margin-top: -106px;
+        margin-left: auto;
+        margin-right: 130px;
+    }
+    .lofoten-bg {
+        margin-right: 65px;
+        width: 100%;
+    }
+    .lofoten-bg img {
+        height: 220px;
+        width: 100%;
+    }
+    .lofoten-img {
+        flex-direction: column-reverse;
+    }
+    .svalbard-img img:nth-child(2), .lofoten-img img:nth-child(1) {
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .svalbard-link {
+        margin-left: auto;
+        margin-right: 62px;
+    }
+    .lofoten-link {
+        margin-right: auto;
+        margin-left: 62px;
+        margin-top: 0px;
+    }
+    .svalbard-link img, .lofoten-link img {
+        margin-left: initial;
+        margin-right: initial;
+    }
+    .svalbard-link img, .lofoten-link img {
+        width: 70px;
+        margin-top: 42px;
+        margin-bottom: 47px;
+    }
+    .svalbard-bg img, .lofoten-bg img {
+        height: 219px;
+        margin-bottom: -2px;
+    }
+    .main-text h1 {
+        margin: auto;
+        width: 660px;
+        font-size: 75px;
+        line-height: 100px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .main-text span {
+        font-size: 70px;
+        line-height: 85px;
+    }
+    .main-text img {
+        width: 200px;
+    }
+    .book_part2 img:nth-child(1) {
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 100px;
+        max-width: 280px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .terms-text {
+        margin-left: 20px;
+        margin-top: -80px;
+    }
+    .book-bg {
+        margin-top: -450px;
+        height: 390px;
+    }
+    .main-text {
+        margin-top: 280px;
+    }
+}
+
+@media (max-width: 900px) {
+    .whois__inner h1 {
+        font-size: 40px;
+    }
+    .tour-slide-first {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 840px) {
+    .header {
+        padding-top: 0;
+        height: 85px;
+    }
+    .header__inner a {
+        margin-top: 24px;
+        font-size: 24px;
+    }
+    .menu-btn {
+        display: block;
+        margin-top: 26px;
+        margin-right: 33px;
+        z-index: 4;
+      }
+      .menu {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-color: #EDF2FB;
+        position: absolute;
+        left: 0;
+        top: -2400px;
+        z-index: 1;
+        padding-top: 130px;
+        margin: 0;
+        transition: all 0.45s ease-in-out;
+      }
+      .menu.active {
+        top: 0;
+        transition: all 0.4s ease;
+        padding: 0;
+        z-index: 3;
+      }
+      .menu-link {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20vh;
+      }
+      .menu-link a {
+        margin-top: 0px;
+    }
+      .menu-link a:nth-child(1), .menu-link a:nth-child(2), .menu-link a:nth-child(3){
+        margin-right: 0;
+        margin-bottom: 69px;
+      }
+      .main-information__inner-2 h1 {
+        max-width: 100%;
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .main-list {
+        margin-top: 31px;
+    }
+    .main-list .main-list-un1 {
+        margin-right: 110px;
+    }
+    .main-list .main-list-un2 {
+        margin-right: 40px;
+    }
+    .unit-1 {
+        padding: 22px 0px 20px 50px;
+    }
+    .unit-2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .unit-1 li, .unit-2 li {
+        font-size: 14px;
+    }
+    .info-3 ul {
+        font-size: 40px;
+    }
+    .info-3 li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .photo-3 img {
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-info h1 {
+        font-size: 100px;
+    }
+    .tour-slide-container {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .main-list {
+        flex-direction: column;
+    }
+    .main-list-un2 li {
+        margin-bottom: 20px;
+    }
+    .unit-2 li {
+        margin-bottom: 20px;
+    }
+    .photo-3 {
+        max-width: 100%;
+        height: initial;
+        margin: 15px 0px 15px 15px;
+    }
+    .photo-3 img {
+        width: 100%;
+        height: initial;
+    }
+    .info-3 {
+        padding-top: 51px;
+    }
+    .playvideo {
+        display: none;
+    }
+    .video__slider-item a {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        height: 99%;
+        top: 0;
+        left: 0;
+    }
+    .tours {
+        margin-bottom: 100px;
+    }
+    .how-to-book__inner {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .book_part2 {
+        flex-direction: column;
+        margin-top: -1110px;
+    }
+    .book_part2 img:nth-child(1) {
+        width: 430px;
+        max-width: none;
+        height: initial;
+        margin-left: 0;
+        margin-top: 215px;
+    }
+    .book_part2 img:nth-child(2) {
+        width: 323px;
+        height: initial;
+        margin-left: 0;
+        margin-top: 370px;
+    }
+    .book_part1 {
+        padding-bottom: 20px;
+    }
+    .how-to-book {
+        padding-top: 0;
+    }
+    .how-to-book h1 {
+        font-size: 64px;
+        line-height: 93px;
+    }
+    .how-to-book ul {
+        margin-top: 470px;
+    }
+    .how-to-book li {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .terms-text {
+        margin-top: 350px;
+    }
+    .terms-text p {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 480px;
+    }
+    .book-bg {
+        margin-top: -50px;
+    }
+    .main-text {
+        margin-top: 230px;
+        margin-bottom: 100px;
+    }
+    .gallery-text {
+        flex-direction: column;
+    }
+    .gallery-text h4 {
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: initial;
+    }
+    .gallery-slider-container .swiper-button-next {
+        right: 15px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .chief {
+        margin-top: 30px;
+    }
+    .chief__head h1 {
+       font-size: 75px;
+       text-align: center;
+    }
+    .chief__head img {
+        width: 50px;
+    }
+    .chief__main h3 {font-size: 30px;}
+    .ch-video-item {
+        height: 500px;
+    }
+    .main-text h1 {
+        width: 520px;
+        font-size: 55px;
+        line-height: 80px;
+        margin-top: 36px;
+        margin-bottom: 20px;
+    }
+    .main-text span {
+        font-size: 55px;
+        line-height: 80px;
+    }
+    .main-text img {
+        width: 200px;
+        height: 52px;
+    }
+}
+
+@media (max-width: 630px) {
+    .tour-slide-first {
+        padding-right: 0;
+    }
+    .tour-slide-img-container {
+        padding-left: 0;
+    }
+    .unit-1, .unit-2, .info-3 {
+        padding-left: 30px;
+    }
+    .svalbard-info {
+        margin-left: 50px;
+    }
+    .lofoten-info {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-forms {
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contact-form__inner {
+        margin-top: 70px;
+        margin-left: 0;
+    }
+    .contact-forms input {
+        margin: auto;
+        max-width: 450px;
+    }
+    .contact-forms input:nth-child(2) {
+        margin: auto;
+        margin-top: 30px;
+    }
+    .contact-forms button {
+        margin: auto;
+        margin-top: 30px;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 576px) {
+    .whois__inner h1 {
+       width: 229px;
+       line-height: 58px;
+    }
+    .main-information__inner-1 h1 {
+        font-size: 40px;
+    }
+    .tour-dates h3 {
+        width: 75px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .tour-main ul {
+        margin-left: 15px;
+    }
+    .tour-main li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .main-list {
+        flex-direction: column;
+    }
+    .info-3-li {
+        margin-right: 20px;
+    }
+    .gallery-slider {
+        margin-bottom: 110px;
+    }
+    .gallery-slider-container .swiper-button-prev {
+        width: 136px;
+        height: 11px;
+        bottom: 80px;
+        background-image: url(../img/arrow-dark-prev-small.svg);
+      }
+      .gallery-slider-container .swiper-button-next {
+        width: 136px;
+        height: 11px;
+        bottom: 80px;
+        background-image: url(../img/arrow-dark-next-small.svg);
+      }
+}
+
+@media (max-width: 560px) {
+    .contact-forms {
+        margin-top: 20px;
+    }
+    .contact-form__inner h1 {
+        font-size: 54px;
+        line-height: 58px;
+    }
+    .contact-form__inner span {
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .how-to-book__inner {
+        margin-left: 20px;
+    }
+    .how-to-book h1 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .how-to-book li > img {
+        margin-right: 13px;
+    }
+    .book_part2 img:nth-child(1) {
+        width: 300px;
+        height: 330px;
+        object-fit: cover;
+        margin-top: 300px;
+    }
+    .book_part2 img:nth-child(2) {
+        width: 291px;
+        height: 460px;
+        object-fit: cover;
+    }
+    .how-to-book ul {
+        margin-top: 380px;
+        height: 420px;
+    }
+    .terms-text {
+    margin-right: 30px;
+    }
+    .terms-text p {
+        max-width: 400px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .how-to-book li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .book-bg {
+        margin-top: -100px;
+    }
+}
+
+@media (max-width: 540px) {
+    .tours a {
+        height: 465px;
+    }
+
+    .svalbard-info {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lofoten-info {
+        margin-top: -415px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .svalbard-info h1, .lofoten-info h1 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .svalbard-info h2, .lofoten-info h2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .svalbard-info h3, .lofoten-info h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .svalbard-img {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .lofoten-img {
+        margin-top: 171px;
+    }
+    .svalbard-bg img, .lofoten-bg img {
+        height: 167px;
+    }
+    .svalbard-link {
+        margin: auto;
+    }
+    .lofoten-link {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .svalbard-link img, .lofoten-link img {
+        width: 40px;
+        margin: auto;
+        margin-top: 42px;
+    }
+    .main-text h1 {
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-info {
+        margin-top: 49px;
+    }
+    .main-info h1 {
+        font-size: 50px;
+    }
+    .main-info-text {
+        margin-top: 22px;
+    }
+    .main-info-text h4 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .main-info-text h3 {
+        font-size: 14px;
+    }
+    .main-bg {
+        margin-top: -30px;
+        height: 50vh;
+        background-image: url(../img/main-photo-500.jpg);
+        background-repeat: no-repeat;
+    }
+    .background-color {
+        height: 50vh;
+    }
+    .whois__inner p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 290px;
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .main-information__inner-2 h1 {
+        width: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tour-slider {
+        margin-top: 27px;
+        margin-bottom: 27px;
+    }
+    .tour-slide-container {
+        margin: 0;
+    }
+    .tour-slide-img-container {
+        padding-right: 15px;
+    }
+    .contact-link {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .contact-link a {
+        margin-top: 20px;
+    }
+    .contact-link a:nth-child(1) {
+        margin-right: 0;
+    }
+    .designed {
+        margin-top: 20px;
+    }
+    .unit-1, .unit-2, .info-3 {
+        padding-left: 15px;
+    }
+    .info-3 {
+        padding-top: 20px;
+    }
+    .contact-form {
+        height: 440px;
+    }
+    .contact-forms {
+        margin-top: 0;
+    }
+    .contact-form input, .contact-forms button {
+        max-width: 90%;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .contact-form__inner h1 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .contact-form__inner span {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .container-1650 .header__inner img {
+        margin-left: 15px;
+    }
+    .chief__head img {
+        width: 32px;
+    }
+    .chief__head h1 {
+        font-size: 50px;
+        line-height: 73px;
+        text-align: left;
+        margin-left: -6px;
+    }
+    .chief__main h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 17px;
+        margin-bottom: 0;
+    }
+    .cheif__main-title {
+        margin-bottom: 17px;
+    }
+    .ch-video-item {
+        height: 400px;
+    }
+    .main-text {
+        margin-bottom: 70px;
+    }
+    .tours {
+        padding-top: 0;
+    }
+    .tours-title h1 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .gallery-slider {
+        margin-top: 40px;
+    }
+    .gallery-slider img {
+        width: 100%;
+    }
+    .gallery-slider-container, .gallery-container {
+        margin-right: 16px;
+    }
+    .gallery-text h1 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .gallery-text h4 {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 10px;
+    }
+    .gallery-slider-container .swiper-button-next {
+        right: 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .how-to-book__inner {
+        margin-left: 15px;
+    }
+    .book_part2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .book_part2 img:nth-child(1) {
+        width: 290px;
+        height: 274px;
+        margin-top: 300px;
+    }
+    .book_part2 img:nth-child(2) {
+        width: 290px;
+        height: 435px;
+        margin-top: 420px;
+    }
+    .terms-text {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    .how-to-book ul {
+        margin-top: 345px;
+        height: 460px;
+    }
+    .book-bg {
+        margin-top: -90px;
+    }
+    .main-text {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 380px) {
+    .footer__inner {
+        margin-top: 24px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+    .social-link, .contact-link, .designed {
+        text-align: left;
+    }
+    .contact-form {
+        height: 392px;
+    }
+    .contact-form__inner {
+        margin-top: 44px;
+    }
+    .contact-form__inner h1 {
+        width: 253px;
+        margin-left: 15px;
+        text-align: left;
+    }
+    .contact-forms button {
+        max-width: 100%;
+        font-size: 14px;
+        height: 43px;
+        margin-top: 15px;
+    }
+    .contact-form input {
+        max-width: 100%;
+        font-size: 14px;
+        height: 43px;
+        padding-left: 18px;
+    }
+    .contact-forms input:nth-child(2) {
+        margin-top: 15px;
+    }
+    .chief__main h3 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .ch-video-item {
+        height: 320px;
+    }
+}
+
+@media (max-width: 340px) {
+    .book-bg {
+        margin-top: -40px;
+    }
+}
