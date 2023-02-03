@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tours in Norway</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: "Gropled";
+        src: url("./fonts/gropled-bold-webfont.woff2") format("woff2"),
+          url("./fonts/gropled-bold-webfont.woff") format("woff");
+        font-weight: normal;
+        font-display: swap;
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a class="logo" href="#"><img src="./images/logo.svg" alt="" /></a>
+            <div class="menu__btn">
+              <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div id="cross">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Tours</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Rules</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Gallery</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="top-bg index"></div>
+        <section class="preview">
+          <div class="container">
+            <div class="preview__inner">
+              <p class="preview__desc">Author's tours in Norway</p>
+              <div class="preview__slider swiper">
+                <div class="preview__slider-container swiper-wrapper">
+                  <div class="preview__slider-item swiper-slide">
+                    <h1 class="preview__title title">Prekestulen</h1>
+                    <a class="preview__link-arrow" href="#"
+                      ><img src="./images/link-arrow.svg" alt=""
+                    /></a>
+                    <div class="preview__slide-img-box">
+                      <a href="#">
+                        <img
+                          class="preview__slide-img"
+                          draggable="false"
+                          src="./images/preview/prekestulen.jpg"
+                          alt=""
+                      /></a>
+                    </div>
+                    <a
+                      class="preview__play"
+                      data-fancybox
+                      href="https://youtu.be/3G0gL-w8z-I"
+                      ><img
+                        class="play-button"
+                        src="./images/play-button.svg"
+                        alt=""
+                      />Watch video</a
+                    >
+                  </div>
+                  <div class="preview__slider-item swiper-slide">
+                    <h1 class="preview__title title">Sognefjord</h1>
+                    <a class="preview__link-arrow" href="#"
+                      ><img src="./images/link-arrow.svg" alt=""
+                    /></a>
+                    <div class="preview__slide-img-box">
+                      <a href="#">
+                        <img
+                          class="preview__slide-img"
+                          draggable="false"
+                          src="./images/preview/sognefjord.jpg"
+                          alt=""
+                      /></a>
+                    </div>
+                    <a
+                      class="preview__play"
+                      data-fancybox
+                      href="https://youtu.be/TgZiwV2gpxU"
+                      ><img
+                        class="play-button"
+                        src="./images/play-button.svg"
+                        alt=""
+                      />Watch video</a
+                    >
+                  </div>
+                  <div class="preview__slider-item swiper-slide">
+                    <h1 class="preview__title title">Lofoten Islands</h1>
+                    <a class="preview__link-arrow" href="#"
+                      ><img src="./images/link-arrow.svg" alt=""
+                    /></a>
+                    <div class="preview__slide-img-box">
+                      <a href="#">
+                        <img
+                          class="preview__slide-img"
+                          draggable="false"
+                          src="./images/preview/lofoten.jpg"
+                          alt=""
+                      /></a>
+                    </div>
+                    <a
+                      class="preview__play"
+                      data-fancybox
+                      href="https://youtu.be/8P6c26DgOig"
+                      ><img
+                        class="play-button"
+                        src="./images/play-button.svg"
+                        alt=""
+                      />Watch video</a
+                    >
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="tours">
+          <div class="container">
+            <h1 class="tours__title title">Tours</h1>
+            <a class="tours__item" href="#">
+              <div class="tours__info">
+                <h2 class="tours__info-title title">Svalbard</h2>
+                <p class="tours__dates">September 10-11 | October 15-16</p>
+                <p class="tours__address">Departure: Oslo, 7 Brugata</p>
+                <h3 class="tours__price">$800/person</h3>
+              </div>
+              <div class="tours__item-container">
+                <div class="tours__image-container">
+                  <img
+                    class="tours__image"
+                    src="./images/content/tour__svalbard.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="tours__arrow-link">
+                  <img src="./images/link-arrow.svg" alt="" />
+                </div>
+              </div>
+            </a>
+            <a class="tours__item" href="#">
+              <div class="tours__item-container">
+                <div class="tours__arrow-link">
+                  <img src="./images/link-arrow.svg" alt="" />
+                </div>
+                <div class="tours__image-container">
+                  <img
+                    class="tours__image"
+                    src="./images/content/tour__lofoten.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="tours__info">
+                <h2 class="tours__info-title title">Lofoten Islands</h2>
+                <p>October 15-16 | November 19-20</p>
+                <p>Departure: Oslo, 7 Brugata</p>
+                <h3 class="tours__price tour-price">$900/person</h3>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="rules">
+          <div class="how-to-book">
+            <div class="container">
+              <div class="how-to-book__inner">
+                <div class="how-to-book__info">
+                  <h1 class="how-to-book__title title">
+                    How <span>to</span> book
+                  </h1>
+                  <ul class="how-to-book__list">
+                    <il class="how-to-book__list-item"
+                      >Send a request for a tour</il
+                    >
+                    <il class="how-to-book__list-item"
+                      >Expect a call from the organizer</il
+                    >
+                    <il class="how-to-book__list-item"
+                      >Make an advance payment</il
+                    >
+                    <il class="how-to-book__list-item"
+                      >Send a payment receipt to the messenger</il
+                    >
+                    <il class="how-to-book__list-item"
+                      >The organizer will send you all the information about the
+                      tour</il
+                    >
+                  </ul>
+                </div>
+                <div class="how-to-book__content">
+                  <div class="how-to-book__img square-images">
+                    <img
+                      class="how-to-book__img--anim-1"
+                      src="./images/content/01.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="how-to-book__img rectangular-images">
+                    <img
+                      class="how-to-book__img--anim-2"
+                      src="./images/content/02.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="terms-of-return">
+            <div class="container">
+              <div class="terms-of-return__inner">
+                <div class="terms-of-return__content">
+                  <img
+                    class="terms-of-return__img terms-of-return__img--anim-1"
+                    src="./images/content/03.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="terms-of-return__info">
+                  <h1 class="terms-of-return__title title">
+                    Terms <span>of</span> return
+                  </h1>
+                  <p class="terms-of-return__text">
+                    If you cancel the tour more than 2 weeks in advance, the
+                    prepayment is refunded 100%. If you cancel the tour less
+                    than 2 weeks in advance, the prepayment will not be
+                    refunded. You can write down another person instead of
+                    yourself.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rules__bg"></div>
+        </section>
+
+        <section class="phrase">
+          <div class="phrase__inner">
+            <h1 class="phrase__text">
+              Adventure
+              <img
+                class="phrase__text--anim-1"
+                src="./images/content/04.jpg"
+                alt=""
+              />
+              <span class="phrase__text--anim-2">is</span> worthwhile.
+            </h1>
+          </div>
+        </section>
+
+        <section class="gallery">
+          <div class="container">
+            <div class="gallery__info">
+              <h1 class="gallery__title title">Gallery</h1>
+              <a class="gallery__link" href="#">
+                See more photos on our <span>Instagram</span>
+              </a>
+            </div>
+            <div class="gallery__slider swiper">
+              <div class="gallery__slider-container swiper-wrapper">
+                <div class="gallery__slide-item swiper-slide">
+                  <h3 class="gallery__slide-title">Prekestulen</h3>
+                  <img
+                    class="gallery__slide-img"
+                    src="./images/gallery/prekestulen.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="gallery__slide-item swiper-slide">
+                  <h3 class="gallery__slide-title">Sognefjord</h3>
+                  <img
+                    class="gallery__slide-img"
+                    src="./images/gallery/sognefjord.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="gallery__slide-item swiper-slide">
+                  <h3 class="gallery__slide-title">Nordkapp</h3>
+                  <img
+                    class="gallery__slide-img"
+                    src="./images/gallery/nordkapp.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="gallery__slide-item swiper-slide">
+                  <h3 class="gallery__slide-title">Svalbard</h3>
+                  <img
+                    class="gallery__slide-img"
+                    src="./images/gallery/svalbard.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="gallery__slide-item swiper-slide">
+                  <h3 class="gallery__slide-title">Altafjord</h3>
+                  <img
+                    class="gallery__slide-img"
+                    src="./images/gallery/altafjord.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="container">
+            <div class="footer__contact">
+              <h1 class="footer__title title">Leave <span>a</span> request</h1>
+              <form class="footer__contact-form" action="">
+                <input
+                  class="footer__form-input"
+                  type="text"
+                  placeholder="Name"
+                />
+                <input
+                  class="footer__form-input"
+                  type="tel"
+                  placeholder="Phone number"
+                />
+                <button class="footer__form-button" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer__inner">
+          <div class="container">
+            <div class="footer__info">
+              <ul class="footer__social-list">
+                <li class="footer__social-list-item">
+                  <a href="#" class="footer__social-link"
+                    ><img
+                      class="footer__social-link-icon"
+                      src="./images/icons/instagram.svg"
+                      alt=""
+                  /></a>
+                </li>
+                <li class="footer__social-list-item">
+                  <a href="#" class="footer__social-link"
+                    ><img
+                      class="footer__social-link-icon"
+                      src="./images/icons/telegram.svg"
+                      alt=""
+                  /></a>
+                </li>
+                <li class="footer__social-list-item">
+                  <a href="#" class="footer__social-link"
+                    ><img
+                      class="footer__social-link-icon"
+                      src="./images/icons/whatsapp.svg"
+                      alt=""
+                  /></a>
+                </li>
+              </ul>
+              <ul class="footer__contact-list">
+                <li class="footer__contact-list-item">
+                  <a class="footer__contact-link" href="tel:+47996936497"
+                    >+47 (99) 693-64-97</a
+                  >
+                </li>
+                <li class="footer__contact-list-item">
+                  <a class="footer__contact-link" href="mailto:info@gmail.com"
+                    >info@gmail.com</a
+                  >
+                </li>
+              </ul>
+              <h4 class="footer__copy">© 2022 Designed by Valentina</h4>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
