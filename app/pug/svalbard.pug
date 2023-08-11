@@ -1,0 +1,95 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Tours in Norway
+        link(rel="stylesheet", href="./css/style.min.css")
+        include layout/favicon
+    body
+        .wrapper
+            include layout/header
+            main.main
+                .top-bg.tour-page
+                section.present
+                    .container
+                        h1.present__title.title Svalbard
+                        ul.present__list
+                            li.present__list-item September 10-11 | October 15-16
+                            li.present__list-item Departure: Oslo, 7 Brugata
+                            li.present__list-item.tour-price $800/person
+                        img.present__image(src='./images/content/svalbard.jpg' alt='Svalbard')
+                section.interlineation.container
+                    h1.title Who is suitable for this tour:
+                    p To everyone who is tired of work and the noise of the city. Recommended for the whole family.
+                .main-wrapper
+                    section.program
+                        .container
+                            .program__inner
+                                .program__info
+                                    ul.program__days
+                                        li.program__days-item
+                                    .program__info-box
+                                        h1.program__title.title Tour program
+                                        ul.program__list
+                                            li.program__list-item *breakfast
+                                            li.program__list-item *excursion to the waterfalls
+                                            li.program__list-item *lunch
+                                            li.program__list-item *free time (visit to the SPA complex)
+                                            li.program__list-item *dinner
+                                        ul.program__list
+                                            li.program__list-item *breakfast
+                                            li.program__list-item *excursion
+                                            li.program__list-item *lunch
+                                            li.program__list-item *free time (visiting the SPA complex)
+                                            li.program__list-item *we are going home
+                                .program__slider.swiper
+                                    .program__slider-container.swiper-wrapper
+                                        .program__slider-item.swiper-slide
+                                            img(src='./images/content/05.jpg' alt='Svalbard')
+                                        .program__slider-item.swiper-slide
+                                            img(src='./images/content/06.jpg' alt='Svalbard')
+                    section.advice
+                        .container
+                            .advice__holder
+                                .advice__box.additional
+                                    h1.advice__title.title Additional expenses:
+                                    .advice__holder
+                                        ul.advice__list.additional
+                                            li.advice__list-item meals
+                                            li.advice__list-item steam train
+                                            li.advice__list-item cable car
+                                            li.advice__list-item excursions
+                                        ul.advice__list.additional
+                                            li.advice__list-item rafting
+                                            li.advice__list-item horseback riding
+                                            li.advice__list-item single occupancy
+                                            li.advice__list-item souvenirs
+                                .advice__box.what-to-take
+                                    h1.advice__title.title What to take with you:
+                                    .advice__holder
+                                        ul.advice__list.what-to-take
+                                            li.advice__list-item comfortable clothes and shoes
+                                            li.advice__list-item trekking poles (optional)
+                                            li.advice__list-item bathing accessories
+                                        ul.advice__list.what-to-take
+                                            li.advice__list-item documents (passport, birth certificate, Snils, med.policy)
+                                            li.advice__list-item personal first aid kit
+                                            li.advice__list-item great mood :)
+                    section.included-price
+                        .container
+                            .included-price__inner
+                                img.included-price__image(src='./images/content/07.jpg' alt='Svalbard')
+                                .included-price__info-box
+                                    h1.included-price__title.title Included in the price:
+                                    ul.included-price__list
+                                        li.included-price__list-item travel
+                                        li.included-price__list-item accommodation in blocks (facilities for two rooms, rooms for 2, 3, 4 people)
+                                        li.included-price__list-item transport support for the tour
+                                        li.included-price__list-item two excursions
+                                        li.included-price__list-item visit to the SPA complex
+                                        li.included-price__list-item 2 breakfasts, 2 lunches, 2 dinners
+                                        li.included-price__list-item passenger insurance
+            include layout/footer
+        script(src="./js/main.min.js", type="")                            

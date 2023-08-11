@@ -1,0 +1,83 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class],
+input,
+textarea {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  font-size: inherit;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  resize: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: inherit;
+  left: inherit;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  right: inherit;
+  left: inherit;
+}
+.swiper-button-next, .swiper-button-prev {
+  top: inherit;
+  width: inherit;
+  height: inherit;
+  margin-top: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+
+.swiper-pagination-fraction {
+  left: inherit;
+}
+
+button{
+  user-select: none;
+}

@@ -1,0 +1,141 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Tours in Norway
+        link(rel="stylesheet", href="./css/style.min.css")
+        include layout/favicon
+    body
+        .wrapper
+            include layout/header
+            main.main
+                .top-bg.index
+                section.preview
+                    .container
+                        .preview__inner
+                            p.preview__desc Author's tours in Norway
+                            .preview__slider.swiper
+                                .preview__slider-container.swiper-wrapper
+                                    .preview__slider-item.swiper-slide
+                                        h1.preview__title.title Prekestulen
+                                        a.preview__link-arrow(href='#')
+                                            img(src='./images/link-arrow.svg' alt='Arrow')
+                                        .preview__slide-img-box
+                                            a(href='#')
+                                                img(draggable='false' src='./images/preview/prekestulen.jpg' alt='Prekestulen')
+                                        a.preview__play(href='https://youtu.be/3G0gL-w8z-I' data-fancybox)
+                                            img.play-button(src='./images/play-button.svg' alt='Play')
+                                            | Watch video
+                                    .preview__slider-item.swiper-slide
+                                        h1.preview__title.title Sognefjord
+                                        a.preview__link-arrow(href='#')
+                                            img(src='./images/link-arrow.svg' alt='Arrow')
+                                        .preview__slide-img-box
+                                            a(href='#')
+                                                img(draggable='false' src='./images/preview/sognefjord.jpg' alt='Sognefjord')
+                                        a.preview__play(href='https://youtu.be/TgZiwV2gpxU' data-fancybox)
+                                            img.play-button(src='./images/play-button.svg' alt='Play')
+                                            | Watch video
+                                    .preview__slider-item.swiper-slide
+                                        h1.preview__title.title Lofoten Islands
+                                        a.preview__link-arrow(href='#')
+                                            img(src='./images/link-arrow.svg' alt='Arrow')
+                                        .preview__slide-img-box
+                                            a(href='#')
+                                                img(draggable='false' src='./images/preview/lofoten.jpg' alt='Lofoten')
+                                        a.preview__play(href='https://youtu.be/8P6c26DgOig' data-fancybox)
+                                            img.play-button(src='./images/play-button.svg' alt='Play')
+                                            | Watch video
+                                .swiper-pagination
+                                .swiper-button-next
+                                .swiper-button-prev
+                section.tours#tours-sect
+                    .container
+                        h1.tours__title.title Tours
+                        a.tours__item(href='./svalbard.html')
+                            .tours__info
+                                h2.tours__info-title.title Svalbard
+                                p.tours__dates September 10-11 | October 15-16
+                                p.tours__address Departure: Oslo, 7 Brugata
+                                h3.tours__price $800/person
+                            .tours__item-container
+                                .tours__image-container
+                                    img.tours__image(src='./images/content/tour__svalbard.jpg' alt='Svalbard')
+                                .tours__arrow-link
+                                    img(src='./images/link-arrow.svg' alt='Arrow')
+                        a.tours__item(href='#')
+                            .tours__item-container
+                                .tours__arrow-link
+                                    img(src='./images/link-arrow.svg' alt='Arrow')
+                                .tours__image-container
+                                    img.tours__image(src='./images/content/tour__lofoten.jpg' alt='Lofoten')
+                            .tours__info
+                                h2.tours__info-title.title Lofoten Islands
+                                p October 15-16 | November 19-20
+                                p Departure: Oslo, 7 Brugata
+                                h3.tours__price.tour-price $900/person
+                section.rules#rules-sect
+                    .how-to-book
+                        .container
+                            .how-to-book__inner
+                                .how-to-book__info
+                                    h1.how-to-book__title.title
+                                        | How 
+                                        span to
+                                        |  book
+                                    ul.how-to-book__list
+                                        il.how-to-book__list-item Send a request for a tour
+                                        il.how-to-book__list-item Expect a call from the organizer
+                                        il.how-to-book__list-item Make an advance payment
+                                        il.how-to-book__list-item Send a payment receipt to the messenger
+                                        il.how-to-book__list-item The organizer will send you all the information about the tour
+                                .how-to-book__content
+                                    .how-to-book__img.square-images
+                                        img.how-to-book__img--anim-1(src='./images/content/01.jpg' alt='Svalbard')
+                                    .how-to-book__img.rectangular-images
+                                        img.how-to-book__img--anim-2(src='./images/content/02.jpg' alt='Lofoten')
+                    .terms-of-return
+                        .container
+                            .terms-of-return__inner
+                                .terms-of-return__content
+                                    img.terms-of-return__img.terms-of-return__img--anim-1(src='./images/content/03.jpg' alt='Sognefjord')
+                                .terms-of-return__info
+                                    h1.terms-of-return__title.title
+                                        | Terms 
+                                        span of
+                                        |  return
+                                    p.terms-of-return__text If you cancel the tour more than 2 weeks in advance, the prepayment is refunded 100%. If you cancel the tour less than 2 weeks in advance, the prepayment will not be refunded. You can write down another person instead of yourself.
+                    .rules__bg
+                section.phrase
+                    .phrase__inner
+                        h1.phrase__text Adventure <img class="phrase__text--anim-1" src='./images/content/04.jpg' alt='Sognefjord'> <span class="phrase__text--anim-2"> is worthwhile.</span>
+                section.gallery#gallery-sect
+                    .container
+                        .gallery__info
+                            h1.gallery__title.title Gallery
+                            a.gallery__link(href='#') See more photos on our 
+                                span Instagram
+                        .gallery__slider.swiper
+                            .gallery__slider-container.swiper-wrapper
+                                a.gallery__slide-item.swiper-slide(href="./images/gallery/prekestulen.jpg" data-fancybox)
+                                    h3.gallery__slide-title Prekestulen
+                                    img(src='./images/gallery/prekestulen.jpg' alt='Prekestulen')
+                                a.gallery__slide-item.swiper-slide(href="./images/gallery/sognefjord.jpg" data-fancybox)
+                                    h3.gallery__slide-title Sognefjord
+                                    img(src='./images/gallery/sognefjord.jpg' alt='Sognefjord')
+                                a.gallery__slide-item.swiper-slide(href="./images/gallery/nordkapp.jpg" data-fancybox)
+                                    h3.gallery__slide-title Nordkapp
+                                    img(src='./images/gallery/nordkapp.jpg' alt='Nordkapp')
+                                a.gallery__slide-item.swiper-slide(href="./images/gallery/svalbard.jpg" data-fancybox)
+                                    h3.gallery__slide-title Svalbard
+                                    img(src='./images/gallery/svalbard.jpg' alt='Svalbard')
+                                a.gallery__slide-item.swiper-slide(href="./images/gallery/altafjord.jpg" data-fancybox)
+                                    h3.gallery__slide-title Altafjord
+                                    img(src='./images/gallery/altafjord.jpg' alt='Altafjord')
+                            .swiper-button-next
+                            .swiper-button-prev
+
+            include layout/footer
+        script(src="./js/main.min.js", type="")
