@@ -1,4 +1,4 @@
-<div align='center'><img src='https://i.imgur.com/CLo4JSp.jpg' alt='Mineshop'/></div>
+<div align='center'><img src='https://i.imgur.com/CLo4JSp.jpg' alt='Norway Tours'/></div>
 
 # Norway Tours - Landing
 
