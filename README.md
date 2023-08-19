@@ -9,7 +9,7 @@ A double-page banner advertising tours to Norway. Nice design, and the presence 
 » Task Runner Gulp\
 » Sass / SCSS\
 » Pug / Jade\
-» Libraries: jQuery, gsap, swiper, fancybox, mixitup
+» Libraries: jQuery, GSAP, swiper, fancybox, mixitup
 
 ## Project launch
 
