@@ -13,22 +13,28 @@ A double-page banner advertising tours to Norway. Nice design, and the presence 
 
 ## Project launch
 
-1. Clone the project via git
+1. Clone the project via git:
 
 ```bash
 git clone https://github.com/Lorneyq/norway-tours.git
 ```
 
-2. Once fully cloned, run the installation of all dependencies
+2. Once fully cloned, run the installation of all dependencies:
 
 ```bash
 npm install
 ```
 
-3. Since the project works with the help of Gulp task runner, you need to execute its commands to start the project
+3. Since the project works with the help of Gulp task runner, you need to execute its commands to start the project:
 
 ```bash
 gulp
+```
+
+4. To build a project in the Gulp Task Runner, run the command:
+
+```bash
+gulp build
 ```
 
 That's it, the whole project is up and running. Congratulations!🎉🥳
